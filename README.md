@@ -14,7 +14,7 @@
 
 
 
-Ifood Clone desenvolvido com React,conteúdo do desafio  Bootcamp MRV Fullstack Developer 2021/2022, oferecido pe Digital Innovation One.
+Ifood Clone desenvolvido com React,conteúdo do desafio  Bootcamp MRV Fullstack Developer 2021/2022, oferecido pela Digital Innovation One.
 
 
 
