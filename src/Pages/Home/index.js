@@ -18,7 +18,7 @@ export default function Home({ navigation }) {
         </View>
         <ButtonContainer>
           <Button text="PULAR" onPress={() => navigation.navigate('Main')} />
-          <Button text="ENTRAR" theme="primary" />
+          <Button text="ENTRAR" onPress={() => navigation.navigate('Login')} />
         </ButtonContainer>
       </SafeAreaView>
     </>

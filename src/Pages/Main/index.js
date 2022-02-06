@@ -5,6 +5,9 @@ import Feather from 'react-native-vector-icons/Feather';
 
 import Principal from '../Principal';
 import Perfil from '../Perfil';
+import Pedidos from '../Pedidos'
+import Busca from '../Busca';
+
 
 const Tab = createBottomTabNavigator();
 
@@ -14,10 +17,15 @@ export default function Main() {
       tabBarIcon: ({ focused, color, size }) => {
         let iconName;
 
-        if (route.name === 'Principal') {
+        if (route.name === 'Inicio') {
           iconName = 'home';
-        } else if (route.name === 'Perfil') {
-          iconName = 'user';
+        } else if (route.name === 'Busca') {
+          iconName = 'search';
+        }else if (route.name === 'Pedidos') {
+          iconName = 'list';      
+        
+        }else if (route.name === 'Perfil') {
+          iconName = 'user';      
         }
 
         // You can return any component that you like here!
@@ -30,8 +38,11 @@ export default function Main() {
         inactiveTintColor: 'gray',
       }}
     >
-      <Tab.Screen name="Principal" component={Principal} />
+      <Tab.Screen name="Inicio" component={Principal} />
+      <Tab.Screen name="Busca" component={Busca} />      
+      <Tab.Screen name="Pedidos" component={Pedidos} />
       <Tab.Screen name="Perfil" component={Perfil} />
+      
     </Tab.Navigator>
   );
 }
