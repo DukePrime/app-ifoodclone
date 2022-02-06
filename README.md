@@ -3,9 +3,22 @@
     IFOOD CLONE 
 </h1>
 
-<p align="center">
-    Aplicativo criado no curso de react native da digital innovation one
-</p>
+
+<div>
+        <img align="right" alt="Ed-pic" height="150" style="border-radius:50px;" src="https://hermes.digitalinnovation.one/tracks/5ff98a20-9788-4727-bf44-996f0e4844a2.png">
+</div>
+
+
+##Bootcamp MRV Fullstack Developer
+
+
+
+
+Ifood Clone desenvolvido com React,conteúdo do desafio  Bootcamp MRV Fullstack Developer 2021/2022, oferecido pe Digital Innovation One.
+
+
+
+
 
 
 
@@ -23,5 +36,8 @@
 <br>
 <br>
 
-## Obrigado
-<p>Espero que tenham gostado, façam um fork deste projeto e crie sua versão e customizações e qualquer duvida só me enviar pelo [Linkedin](https://linkedin.com/in/pablohev), pode me mandar como está o projeto tbm, vou gostar de ver sua evolução, bons estudos :rocket:</p>
+## Em desenvolvimento!!
+
+<div>
+        <img align="right" alt="Ed-pic" height="500" style="border-radius:300px;" src="assets\screenshot.png">
+</div>
